@@ -1,0 +1,130 @@
+@charset "UTF-8";
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    height: 80px;
+    
+    width: 100%;
+    color: white;
+    background-color: rgba(18, 11, 136, 0.6);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    
+}
+
+.headContainer {
+    padding: 0 40px;
+    height: 80px;
+    
+}
+
+.home {
+    float: left;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+.home h1 {
+    font-size: 20px;
+    display: block;
+    margin: 25px 15px;
+}
+
+.headerContents {
+    float: right;
+    height: auto;
+    width: auto;
+    text-align: right;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.profile {
+    float: left;
+    display: block;
+    
+}
+
+.profile h1 {
+    font-size: 20px;
+    display: block;
+    margin: 25px 15px; 
+    
+}
+
+.contactBtn {
+    float: left;
+    display: block;
+    
+}
+
+.contactBtn h1 {
+    font-size: 20px;
+    display: block;
+    margin: 25px 15px;
+    
+}
+
+.contactBtn:hover {
+    background-color: rgba(18, 11, 136, 0.7);
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 15px;
+}
+
+.first {
+    text-align: center;
+    background-image: url('tree-woods_00023.jpg');
+    background-size: cover;
+    color: white;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    display: block;
+    padding: 100px;
+}
+
+.first h1 {
+    font-size: 50px;
+    margin: 0 auto;
+}
+
+.first h2 {
+    text-align: right;
+    color: black;
+    margin: 0 auto;
+}
+
+.firstText {
+    margin: 180px 100px 100px 100px;
+}
+
+.checkBox {
+    float: left;
+    margin: 0;
+}
+
+.check-img {
+    width: 38px;
+    height: 38px;
+    margin-bottom: 50px;
+    
+}
+
+.checkSentence {
+    float: left;
+    text-align: center;
+}
+
+.checkSentence h2 {
+    margin: 0 100px 50px 100px;
+}
