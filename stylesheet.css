@@ -81,16 +81,17 @@ header {
 
 .first {
     text-align: center;
-    background-image: url('tree-woods_00023.jpg');
+    background-image: url('sea.jpg');
     background-size: cover;
     color: white;
 }
 
-.container {
+.container-first {
     width: 1000px;
+    height: 300px;
     margin: 0 auto;
     display: block;
-    padding: 100px;
+    padding: 200px 100px 100px 100px;
 }
 
 .first h1 {
@@ -100,12 +101,28 @@ header {
 
 .first h2 {
     text-align: right;
-    color: black;
     margin: 0 auto;
 }
 
 .firstText {
     margin: 180px 100px 100px 100px;
+}
+
+.container {
+    width: 1000px;
+    height: 300px;
+    margin: 0 auto;
+    display: block;
+    padding: 50px 100px 25px 100px;
+}
+
+.second {
+    height: 375px;
+    margin: 0;
+    padding: 0;
+}
+.check {
+    margin: 0 auto;
 }
 
 .checkBox {
@@ -122,9 +139,78 @@ header {
 
 .checkSentence {
     float: left;
-    text-align: center;
+    text-align: left;
 }
 
 .checkSentence h2 {
     margin: 0 100px 50px 100px;
+    font-size: 30px;
+}
+
+.third {
+    height: 375px;
+    text-align: center;
+    background-color: rgba(18, 11, 136, 0.1);
+}
+
+.third p {
+    font-size: 28px;
+}
+
+.third h2 {
+    font-size: 30px;
+}
+
+.title {
+    font-size: 32px;
+    margin-top: 0;
+}
+
+.forth {
+    height: 375px;
+}
+
+.fukusen-img {
+    float: left;
+}
+
+.photo {
+    width: 175px;
+    height: 198px;
+}
+
+.self {
+    float: left;
+    margin: 0 30px 0 30px;
+}
+
+.self h2 {
+    margin-top: 0;
+}
+
+.fifth {
+    height: 375px;
+    background-color: rgba(18, 11, 136, 0.1);
+}
+
+.visionSentence {
+    text-align: center;
+    margin: 50px 0 0 0;
+}
+
+footer {
+    background-color: rgba(18, 11, 136);
+    height: 80px;
+    color: white;
+}
+
+.footContainer {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.footContainer p {
+    margin: 0 auto;
+    padding: 25px;
+    
 }
