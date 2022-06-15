@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="stylesheet.css">
-    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <title>Document</title>
     
 </head>
@@ -13,25 +13,25 @@
     
     <header>
         <div class="headContainer">
-                <div class="home">
-                    <h1>HOME</h1>
-
+                <div class="home" id="home">
+                    <h1 class="homeText">HOME</h1>
+                    
                 </div>
             <div class="headerContents">
                 <div class="profile">
-                    <h1>Profile</h1>
+                        <h1 class="profileText" id="profile">Profile</h1>
+                </div>
+                <div class="profile" id="works">
+                    <h1 class="profileText">Works</h1>
+                </div>
+                <div class="profile" id="benefit">
+                    <h1 class="profileText">Benefit</h1>
                 </div>
                 <div class="profile">
-                    <h1>Works</h1>
+                    <h1 class="profileText" id="question">Q&A</h1>
                 </div>
-                <div class="profile">
-                    <h1>Benefit</h1>
-                </div>
-                <div class="profile">
-                    <h1>Q&A</h1>
-                </div>
-                <div class="contactBtn">
-                    <h1>Contact</h1>
+                <div class="contactBtn" id="contact">
+                    <h1 class="contactText">Contact</h1>
                 </div>
             </div>
         </div>
@@ -66,8 +66,9 @@
             <p>を表現します</p>
         </div>
     </div>
-    <div class="forth">
+    <div class="profileBox">
         <div class="container">
+            
             <h1 class="title">PROFILE</h1>
             <div class="fukusen-img">
                 <img class="photo" src="fukusen.jpg" alt="">
@@ -79,11 +80,12 @@
                 <br>
                 ユースキャリア教育機構-Specialist所属<br>
                 └経営のことを学び、その知識を活かして自己実現を目指す団体<br>
-                さらに、現在は現役SEからプログラミングを学び、ITで人・組織を解決するITコンサルを目指している</p>
+                現在は現役SEからプログラミングを学び、ITで人・組織を解決するITコンサルを目指している</p>
             </div>
+            
         </div>
     </div>
-    <div class="fifth">
+    <div class="vision">
         <div class="container">
             <h1 class="title">Vision</h1>
             <h2 class="visionSentence">
@@ -91,33 +93,143 @@
             </h2>
         </div>
     </div>
-    <div class="sixth">
+    <div class="benefit">
         <div class="container">
             <h1 class="title">Benefit</h1>
-            <h2 class="benefitSentence">
+            <div class="benefitArea">
+                <div class="benefitBox">
+                    <div class="benefitBoxBlock">
+                        <h2 class="benefitTitle">丁寧なヒアリング</h2>
+                        <ul>
+                            <li>今までにないデザイン</li>
+                            <li>Webサイト作成の知識がない</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="benefitBox">
+                    <div class="benefitBoxBlock">
+                        <h2 class="benefitTitle">現役SEのバックアップ</h2>
+                        <p>一人だけで作り上げるのではなく、<br>
+                            現役のSE、Webデザイナーと協力のもと作り上げます</p>
+                    </div>        
+                </div>
 
-            </h2>
+
+            </div>
         </div>
 
     </div>
-    <div class="seventh">
+    <div class="flow">
         <div class="container">
             <h1 class="title">Flow</h1>
-            <h2 class="flowSentence">
+            <div class="flowSentence">
+                <div class="flowBox">
+                    <div class="flowBoxBlock">
+                        <h2 class="flowBoxTitle">１．ヒアリング<span class="date">(5日)</span></h2>
+                        <p class="flowBoxSentence">今までしてきたこと・あなたのビジョンを<br>入念なヒアリング</p>
+                    </div>
+                </div>
+                <div class="flowBox">
+                    <div class="flowBoxBlock">
+                        <h2 class="flowBoxTitle">２．見積もり<span class="date">(2日)</span></h2>
+                        <p class="flowBoxSentence"></p>
+                    </div>
+                </div>
+                <div class="flowBox">
+                    <div class="flowBoxBlock">
+                        <h2 class="flowBoxTitle">３．ラフ制作<span class="date">(3日)</span></h2>
+                        <p class="flowBoxSentence">全体像のイメージを共有いたします。</p>
+                    </div>
+                </div>
+                <div class="flowBox">
+                    <div class="flowBoxBlock">
+                        <h2 class="flowBoxTitle">４．仕上げ<span class="date">(1週間)</span></h2>
+                        <p class="flowBoxSentence">ラフ画の確認後、仕上げ/完成したら、<br>データを共有いたします。<br>修正がありましたら、対応いたします。</p>
+                    </div>
+                </div>
+                <div class="flowBox">
+                    <div class="flowBoxBlock">
+                        <h2 class="flowBoxTitle">５．納品<span class="date"></span></h2>
+                        <p class="flowBoxSentence"></p>
+                    </div>
+                </div>
 
-            </h2>
+            </div>
         </div>
     </div>
-    <div class="eighth">
+    <div class="contact">
         <div class="container">
             <h1 class="title">Contact</h1>
-            <h2 class="contactSentence"></h2>
+            <p class="contactSentence">
+                お仕事の依頼・HP/ポートフォリオサイトの相談はこちらにてよろしくお願いいたします。<br>
+                あなたのセルフイメージを表現いたします。<br>
+                <br>
+                ※一人一人確実にサポートをさせていただいているため<br>
+                ご返信が遅くなる場合がございます。<br>
+                申し訳ございません。
+            </p>
+            <div class="form">
+                <h3 class="form-label">名前</h3>
+                <input class="sbmitSentence" type="text">
+                <h3 class="form-label">会社名</h3>
+                <input class="sbmitSentence" type="text">
+                <h3 class="form-label">所属</h3>
+                <label for="">個人</label>
+                <label for="">法人　※ここでやろうとしていることはおそらくPHPの知識</label>
+                <h3 class="form-label">email</h3>
+                <input class="sbmitSentence" type="text">
+                <h3 class="form-message">message</h3>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+                <input class="sendBtn" type="submit" value="send" name="" id="">
+            </div>
         </div>
     </div>
-    <div class="ninth">
+    <div class="question">
         <div class="container">
-            <h1 class="title">Q&A</h1>
-            <h2 class="qSentence"></h2>
+            <div class="questionTitleBox">
+                <h1 class="title">Q&A</h1>
+                <p class="qSentence">よくある質問になります。<br>
+                該当しな場合は上記のフォームにてご質問ください。</p>
+            </div>
+            <div class="questionBlock">
+                <h2 class="questionTitle">
+                    Q：制作期間はどの程度かかりますか？
+                </h2>
+                <div class="answerBox">
+                    <p class="answer">
+                    条件によりますが、1ヶ月を目途に考えています。<br>
+                    現在はスピード対応可能なため、内容によりますが、2週間での対応も可能です。
+                    </p>
+
+                </div>
+
+            </div>
+            <div class="questionBlock">
+                <h2 class="questionTitle">
+                    Q：デザインの知識がないのですが、大丈夫ですか？
+                </h2>
+                <div class="answerBox">
+                    <p class="answer">
+                        大丈夫です！<br>
+                        ミーティングを重ね、希望に沿ったデザインを一緒に作りあげましょう！
+                    </p>
+
+                </div>
+
+            </div>
+            <div class="questionBlock">
+                <h2 class="questionTitle">
+                    Q：打ち合わせはどのような形式でしょうか？
+                </h2>
+                <div class="answerBox">
+                    <p class="answer">
+                        LINEとmailで対応しています。<br>
+                        必要に応じてビデオ通話やZoomも使用出来ます！
+                    </p>
+
+                </div>
+
+            </div>
         </div>
     </div>
     <footer>
@@ -125,5 +237,7 @@
             <p>Copylight🄫Haruki Kato</p>
         </div>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
