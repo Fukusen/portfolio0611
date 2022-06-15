@@ -28,9 +28,14 @@ header {
     text-align: left;
     margin: 0;
     padding: 0;
+    cursor: pointer;
 }
 
-.home h1 {
+.homeText:hover {
+    text-decoration: underline;
+}
+
+.homeText {
     font-size: 20px;
     display: block;
     margin: 25px 15px;
@@ -52,11 +57,16 @@ header {
     
 }
 
-.profile h1 {
+
+.profileText {
     font-size: 20px;
     display: block;
-    margin: 25px 15px; 
-    
+    margin: 25px 25px; 
+    cursor: pointer;
+}
+
+.profileText:hover {
+    text-decoration: underline;
 }
 
 .contactBtn {
@@ -68,15 +78,28 @@ header {
 .contactBtn h1 {
     font-size: 20px;
     display: block;
-    margin: 25px 15px;
-    
+    margin: 15px 5px;
+    padding: 10px 10px;
+    border: 2px solid white;
+    border-radius: 50px;
+    color: rgba(18, 11, 136);
+    background-color: white;
 }
 
-.contactBtn:hover {
-    background-color: rgba(18, 11, 136, 0.7);
-    border: 2px solid black;
-    border-radius: 4px;
-    padding: 15px;
+.contactText:hover {
+    font-size: 20px;
+    transition: 0.3s;
+    display: block;
+    margin: 15px 5px;
+    padding: 10px 10px;
+    background-color: rgba(18, 11, 136, 0.6);
+    border: 2px solid white;
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
+    
+    
+    
 }
 
 .first {
@@ -110,10 +133,10 @@ header {
 
 .container {
     width: 1000px;
-    height: 300px;
+    height: auto;
     margin: 0 auto;
     display: block;
-    padding: 50px 100px 25px 100px;
+    padding: 80px 100px 25px 100px;
 }
 
 .second {
@@ -166,7 +189,7 @@ header {
     margin-top: 0;
 }
 
-.forth {
+.profileBox {
     height: 375px;
 }
 
@@ -188,7 +211,7 @@ header {
     margin-top: 0;
 }
 
-.fifth {
+.vision {
     height: 375px;
     background-color: rgba(18, 11, 136, 0.1);
 }
@@ -196,7 +219,137 @@ header {
 .visionSentence {
     text-align: center;
     margin: 50px 0 0 0;
+    font-size: 40px;
 }
+
+.benefit {
+    height: 400px;
+}
+
+.benefitBox {
+    float: left;
+    width: 50%;
+    margin-top: 20px;
+}
+
+.benefitBoxBlock {
+    background-color: rgba(18, 11, 136, 0.1);
+    box-shadow: 10px 10px 10px rgba(18, 11, 136, 0.4);
+    text-align: center;
+    border-radius: 30px;
+    padding: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.flow {
+    height: 1000px;
+    background-color: rgba(18, 11, 136, 0.1);
+}
+
+.flowSentence {
+    flex-direction: column;
+}
+
+.flowBox {
+    margin: 0 auto;
+    width: 500px;
+    margin-bottom: 30px;
+}
+
+.flowBoxBlock {
+    box-shadow: 0px 2px 20px rgba(18, 11, 136, 0.1);
+    padding: 10px;
+    border-radius: 30px;
+    margin-top: 20px;
+    text-align: center;
+    background-color: white;
+}
+
+.contact {
+    height: 1000px;
+    background-color: rgba(18, 11, 136, 0.3);
+}
+
+.contact textarea {
+    width: 100%;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.sbmitSentence {
+    width: 100%;
+    background-color: white;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.form-label {
+    font-size: 18px;
+}
+
+.sendBtn {
+    background-color: rgba(18, 11, 136, 0.7);
+    width: 100%;
+    border: none;
+    height: 50px;
+    color: white;
+    font-weight: 100px;
+    font-size: 20px;
+    margin-top: 50px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px black;
+}
+
+.sendBtn:hover {
+    background-color: rgba(18, 11, 136, 0.9);
+    cursor: pointer;
+}
+
+.sendBtn:active {
+    background-color: rgba(18, 11, 136, 0.4);
+    position: relative;
+    top: 3px;
+    left: 3px;
+    box-shadow: none;
+}
+
+.questionTitleBox {
+    margin-bottom: 50px;
+}
+
+.qSentence {
+    margin: 0;
+}
+
+.questionBlock {
+    margin: 0 auto;
+    width: 740px;
+    margin-bottom: 30px;
+}
+
+.questionTitle {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.answerBox {
+    text-align: left;
+    background-color: rgba(18, 11, 136, 0.1);
+    margin: 0;
+}
+
+.answer {
+    font-size: 18px;
+    margin: 0;
+    padding: 35px;
+}
+
+
 
 footer {
     background-color: rgba(18, 11, 136);
