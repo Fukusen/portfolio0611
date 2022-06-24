@@ -135,6 +135,7 @@ header {
     width: 1000px;
     height: auto;
     margin: 0 auto;
+    overflow: hidden;
     display: block;
     padding: 80px 100px 25px 100px;
 }
