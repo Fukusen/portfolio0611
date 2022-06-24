@@ -265,6 +265,28 @@ header {
     margin-top: 0;
 }
 
+.newprofileBox {
+    height: auto;
+    
+}
+
+.newtitle {
+    text-align: left;
+}
+
+.newfukusen-img {
+    display: flex;
+    flex-direction: row wrap;
+    align-items: center;
+    
+}
+
+.newphoto {
+    margin-right: 50px;
+    width: 175px;
+    height: 198px;
+}
+
 .vision {
     height: 375px;
     background-color: rgba(18, 11, 136, 0.1);
