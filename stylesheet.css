@@ -235,6 +235,7 @@ header {
 .newthird h2 {
     font-size: 30px;
     margin: 0;
+    text-align: center;
     
 }
 
@@ -295,6 +296,15 @@ header {
 .visionSentence {
     text-align: center;
     margin: 50px 0 0 0;
+    font-size: 40px;
+}
+
+.newvision {
+    height: auto;
+    background-color: rgba(18, 11, 136, 0.2);
+}
+
+.newvisionSentence {
     font-size: 40px;
 }
 
